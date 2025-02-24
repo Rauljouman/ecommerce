@@ -1,0 +1,4 @@
+[build]
+  base = "eCommerce"      # Usa "." si el proyecto está en la raíz
+  command = "npm run build"  # Asegúrate de que este sea el comando correcto para tu build
+  publish = "build"       # O el directorio donde se genere la salida
